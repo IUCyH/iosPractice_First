@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Practice_First' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Practice_First
+  pod 'Then'
+  pod 'SnapKit'
+
+  target 'Practice_FirstTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Practice_FirstUITests' do
+    # Pods for testing
+  end
+
+end
